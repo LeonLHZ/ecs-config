@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cn.lhz</groupId>
-	<artifactId>config</artifactId>
+	<artifactId>ecs-config</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ecs-config</name>
 	<description>ecs-config project for Spring Boot</description>
