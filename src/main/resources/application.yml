@@ -30,12 +30,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://www.lhz520.cn:8761/eureka/
-
-management:
-  endpoint:
-    health:
-      show-details: always
-  endpoints:
-    web:
-      exposure:
-        include: health,info
