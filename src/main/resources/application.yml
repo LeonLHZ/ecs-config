@@ -13,6 +13,12 @@ spring:
           search-paths: respo
           username: LeonLHZ
           password: Lhz@971009
+  boot:
+    admin:
+      client:
+        url: http://94.191.119.192:8083
+  zipkin:
+    base-url: http://94.191.119.192:8082
 server:
   port: 8888
 
@@ -24,3 +30,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://www.lhz520.cn:8761/eureka/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
