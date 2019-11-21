@@ -18,11 +18,8 @@ spring:
       client:
         url: http://94.191.119.192:8083
         instance:
-<<<<<<< HEAD
-            service-base-url: http://94.191.119.192:8888
-=======
-              service-base-url: http://94.191.119.192:8888
->>>>>>> 6cc1445d7377ec2722ec12f81759236ab1e656e2
+         service-base-url: http://94.191.119.192:8888
+
   zipkin:
     base-url: http://94.191.119.192:8082
 server:
@@ -37,7 +34,7 @@ eureka:
     service-url:
       defaultZone: http://www.lhz520.cn:8761/eureka/
 
-<<<<<<< HEAD
+
 management:
   endpoints:
     web:
@@ -46,10 +43,6 @@ management:
 
 logging:
   file: "/root/ecs/config-log.log"
-=======
-logging:
-  file: /root/ecs/config-logs.log
->>>>>>> 6cc1445d7377ec2722ec12f81759236ab1e656e2
   level:
     cn.lhz: debug
   pattern:
