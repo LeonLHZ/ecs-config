@@ -17,6 +17,8 @@ spring:
     admin:
       client:
         url: http://94.191.119.192:8083
+        instance:
+              service-base-url: http://94.191.119.192:8888
   zipkin:
     base-url: http://94.191.119.192:8082
 server:
