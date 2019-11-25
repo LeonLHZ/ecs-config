@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ecs-config
+    name: ECS-CONFIG
   cloud:
     config:
     #仓库分支
