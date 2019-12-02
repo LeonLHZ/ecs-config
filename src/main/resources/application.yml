@@ -18,7 +18,7 @@ spring:
       client:
         url: http://www.lhz520.cn:8081/api/admin
         instance:
-         service-base-url: http://www.lhz520.cn:8081/api/config
+         service-base-url: http://94.191.119.192:8888
 
   zipkin:
     base-url: http://116.62.156.171:8082
