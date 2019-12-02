@@ -31,7 +31,7 @@ eureka:
   #注册服务到服务注册中心
     register-with-eureka: true
     service-url:
-        defaultZone: http://www.lhz520.cn:8081/api/eureka/
+        defaultZone: http://116.62.156.171:8761/eureka/
   instance:
   #设置健康检查页面
     health-check-url: http://${eureka.instance.ip-address}:${eureka.instance.non-secure-port}/health
