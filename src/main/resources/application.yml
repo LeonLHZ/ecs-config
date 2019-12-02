@@ -16,9 +16,9 @@ spring:
   boot:
     admin:
       client:
-        url: http://120.24.95.233:8083
+        url: http://www.lhz520.cn:8081/api/admin
         instance:
-         service-base-url: http://94.191.119.192:8888
+         service-base-url: http://www.lhz520.cn:8081/api/config
 
   zipkin:
     base-url: http://116.62.156.171:8082
@@ -32,7 +32,7 @@ eureka:
   #注册地址
   client:
     service-url:
-      defaultZone: http://116.62.156.171:8761/eureka/
+      defaultZone: http://www.lhz520.cn:8081/api/eureka/
 
 
 management:
